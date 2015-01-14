@@ -1,3 +1,5 @@
 Ceres Solver - A non-linear least squares minimizer
 ==================================================
 Please see docs/html/index.html for a tutorial and reference.
+
+This is forked from https://ceres-solver.googlesource.com/ceres-solver/ and maintained to build ros 3rd party debs.
