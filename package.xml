@@ -1,0 +1,33 @@
+<package>
+  <name>ceres_solver</name>
+  <version>0.10.0</version>
+  <description>
+   Ceres Solver - A non-linear least squares minimizer
+  </description>
+  <url type="repository">https://github.com/stonier/ceres-solver</url>
+  <url type="bugtracker">http://code.google.com/p/ceres-solver/issues/list</url>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <license>New BSD</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>libgflags-dev</build_depend>
+  <build_depend>libgoogle-glog-dev</build_depend>
+  <build_depend>liblapack-dev</build_depend>
+  <build_depend>libblas-dev</build_depend>
+  <build_depend>tbb</build_depend>
+  <build_depend>suitesparse</build_depend>
+
+  <run_depend>catkin</run_depend>
+  <run_depend>libgflags-dev</run_depend>
+  <run_depend>libgoogle-glog-dev</run_depend>
+  <run_depend>liblapack-dev</run_depend>
+  <run_depend>libblas-dev</run_depend>
+  <run_depend>tbb</run_depend>
+  <run_depend>suitesparse</run_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+
+</package>
